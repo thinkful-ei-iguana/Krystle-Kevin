@@ -18,7 +18,7 @@ function howManyDogs() {
   $('form').on('submit', event => {
     event.preventDefault();
     const numberOfDogs = $('input').val();
-    const defaultValue = numberOfDogs.val();
+    const defaultValue = $('inpit').val();
       $('input').val("3")
     console.log(numberOfDogs);
     console.log(defaultValue);
